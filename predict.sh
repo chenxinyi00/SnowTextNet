@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python /data1/cxy/DBNET/tools/predict.py --model_path '/data1/cxy/output1/DBNet_resnet18_FPN_DBHead/checkpoint/model_best.pth' --input_folder '/data1/cxy/DBNET/test/input' --output_folder '/data1/cxy/DBNET/test/output' --thre 0.7 --polygon --show --save_result

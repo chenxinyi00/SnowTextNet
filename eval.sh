@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 /data1/cxy/DBNET/tools/eval.py --model_path '/data1/cxy/model_latest.pth'
